@@ -1,22 +1,20 @@
-# 🚴 Delivery Performance Analysis (Deliveroo)
+# 🚚 Delivery Performance Analysis
 
-*A case study based on food delivery platforms such as Deliveroo.*
----
+> *A case study based on a food delivery platform inspired by Deliveroo.*
 
-This project analyses delivery performance data to identify the key factors driving late deliveries and provide insights to improve operational efficiency..
+This project analyses delivery performance data to identify the main factors behind late deliveries and provide practical insights for improving operational efficiency.
 
 ---
 
 ## 🎯 Business Problem
 
-Late deliveries can negatively affect customer satisfaction and overall operational performance.  
-The goal of this project is to analyse delivery data to identify the main causes of delays and highlight areas for improvement.
+Late deliveries can reduce customer satisfaction and affect operational performance. The aim of this project was to understand the main causes of delays and explore how predictive analytics can help identify high-risk deliveries earlier.
 
 ---
 
 ## 🛠️ Solution
 
-A data-driven approach was used to analyse delivery patterns and build predictive models to identify deliveries likely to be delayed.
+A data-driven approach was used to analyse delivery patterns, uncover operational inefficiencies, and build predictive models to identify deliveries more likely to arrive late.
 
 ---
 
@@ -37,6 +35,18 @@ A data-driven approach was used to analyse delivery patterns and build predictiv
 
 ---
 
+## 🔑 Key Variables Analysed
+
+The analysis focused on operational and delivery-related factors that are likely to influence delays, including:
+
+- Delivery distance  
+- Traffic conditions  
+- Delivery method  
+- Average delivery time  
+- Order and operational patterns
+
+---
+
 ## ⚙️ Methodology
 
 - Data collection from delivery-related datasets  
@@ -49,9 +59,9 @@ A data-driven approach was used to analyse delivery patterns and build predictiv
 
 ## 📈 Model Performance
 
-- Logistic Regression: Baseline model used for comparison  
-- Random Forest: Delivered improved predictive performance  
-- XGBoost: Achieved the strongest overall performance
+- **Logistic Regression** served as the baseline model for comparison  
+- **Random Forest** showed stronger predictive performance by capturing non-linear patterns in the data  
+- **XGBoost** delivered the best overall performance, making it the most effective model for identifying late deliveries  
 
 ---
 
@@ -64,45 +74,45 @@ These findings can support better route planning, resource allocation, and overa
 
 ### 🚚 Average Delivery Time  
 ![Average Delivery Time](./Average-Delivery-Time.png)  
+The average delivery time provides a useful benchmark for overall performance. Variations around this average suggest that some deliveries are affected by operational or environmental factors that increase the risk of delays.
 
-The average delivery time is around 37 minutes, suggesting moderate efficiency but room for improvement.
 ---
 
 ### 📍 Delivery Distance vs Time  
 ![Delivery Distance and Time](./Delivery-Distance-and-Time.png)  
+There is a visible relationship between delivery distance and delivery time. As distance increases, delivery duration generally increases as well, although the spread suggests that traffic and operational factors also influence performance.
 
-There is a clear relationship between delivery distance and time, with longer distances generally resulting in longer delivery times.
 ---
 
 ### 🛵 Delivery Method  
 ![Delivery Method](./Delivery-method.png)  
+Different delivery methods appear to perform differently, which suggests that the delivery allocation strategy can affect overall efficiency and may need to be reviewed.
 
-Different delivery methods show noticeable differences in performance. Some methods consistently achieve faster delivery times, while others are more prone to delays. This suggests that how deliveries are assigned can directly impact efficiency and overall service quality.
 ---
 
 ### 🚦 Traffic Condition  
 ![Traffic Condition](./Traffic-condition.png)  
+Traffic conditions clearly affect delivery performance. Higher traffic levels are associated with longer delivery times, highlighting the importance of route planning and timing.
 
-Deliveries made under high-traffic conditions tend to take significantly longer than in low-traffic scenarios.
 ---
 
 ## 🔍 Conclusion & Key Findings
 
-The analysis shows that delivery performance is largely influenced by distance, traffic conditions, and operational factors.  
-Deliveries over longer distances or during high-traffic periods were more likely to be delayed.
+The analysis showed that late deliveries are influenced by a combination of delivery distance, traffic conditions, and operational factors.
 
-The machine learning models, particularly Random Forest and XGBoost, outperformed Logistic Regression, indicating their ability to capture more complex patterns in the data.
+Longer distances were generally associated with longer delivery times, while traffic congestion increased the likelihood of delays. The modelling results also showed that more advanced methods, such as Random Forest and XGBoost, were better at capturing these delivery patterns than a baseline Logistic Regression model.
 
-Overall, the project highlights how data can be used to better understand delivery challenges and support more informed decision-making.
+Overall, the project shows how analytics and machine learning can be used not only to understand delivery performance but also to support more proactive and efficient operational decision-making.
 
 ---
 
 ## 💡 Business Recommendations
 
-- Optimise delivery routes based on distance and traffic patterns  
-- Increase rider availability during peak demand periods  
-- Use predictive models to identify deliveries at risk of delay  
-- Continuously monitor delivery performance to identify new trends
+- Use traffic and distance data to improve route planning  
+- Prioritise early intervention for deliveries identified as high risk  
+- Review delivery allocation methods to improve consistency  
+- Monitor operational performance regularly to detect changing patterns  
+- Use predictive outputs to support faster decision-making during peak periods  
    
 ---
 
@@ -122,4 +132,4 @@ Overall, the project highlights how data can be used to better understand delive
 - Develop a real-time monitoring system for delivery performance
 
 ---
-This project demonstrates my ability to combine data analysis, machine learning, and visualisation to solve real-world business problems.
+This project demonstrates my ability to combine data analysis, machine learning, and business insight to solve a real operational problem.
