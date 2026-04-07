@@ -1,6 +1,9 @@
-## 🚴 Delivery Performance Analysis
+# 🚴 Delivery Performance Analysis (Deliveroo)
 
-This project explores delivery performance to understand what drives delays and how operations can be improved using data.
+*A case study based on food delivery platforms such as Deliveroo.*
+---
+
+This project analyses delivery performance data to identify the key factors driving late deliveries and provide insights to improve operational efficiency..
 
 ---
 
@@ -13,7 +16,7 @@ The goal of this project is to analyse delivery data to identify the main causes
 
 ## 🛠️ Solution
 
-A data-driven approach was used to analyse delivery patterns and build predictive models capable of identifying deliveries that are likely to be delayed.
+A data-driven approach was used to analyse delivery patterns and build predictive models to identify deliveries likely to be delayed.
 
 ---
 
@@ -46,9 +49,9 @@ A data-driven approach was used to analyse delivery patterns and build predictiv
 
 ## 📈 Model Performance
 
-- Logistic Regression: XX% accuracy  
-- Random Forest: XX% accuracy  
-- XGBoost: XX% accuracy  
+- Logistic Regression: Baseline model used for comparison  
+- Random Forest: Delivered improved predictive performance  
+- XGBoost: Achieved the strongest overall performance
 
 ---
 
@@ -116,4 +119,7 @@ Overall, the project highlights how data can be used to better understand delive
 - Include additional variables such as weather and real-time traffic data  
 - Test the models on larger and more diverse datasets  
 - Explore more advanced modelling techniques  
-- Develop a real-time monitoring system for delivery performance  
+- Develop a real-time monitoring system for delivery performance
+
+---
+This project demonstrates my ability to combine data analysis, machine learning, and visualisation to solve real-world business problems.
