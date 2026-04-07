@@ -37,7 +37,6 @@ Model Evaluation (F1-score, ROC-AUC)
 
 This project demonstrates how predictive analytics can improve delivery efficiency, reduce delays, and enhance customer satisfaction.
 
-📊 Project Output
 
 ## 📊 Visual Insights  
 
