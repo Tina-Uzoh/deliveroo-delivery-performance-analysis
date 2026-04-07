@@ -71,3 +71,22 @@ Key findings indicate that increased delivery distance and high traffic levels l
 Machine learning models, particularly Random Forest and XGBoost, achieved strong predictive performance, highlighting their ability to capture complex delivery patterns.
 
 These insights provide a foundation for improving route optimisation, reducing delays, and enhancing overall customer experience through data-driven decision-making.
+
+## 💡 Business Recommendations
+
+- Optimise delivery routes using distance and traffic insights to reduce delivery time  
+- Implement dynamic routing during peak traffic periods to minimise delays  
+- Allocate more riders during high-demand periods to improve operational efficiency  
+- Use predictive models to proactively identify high-risk deliveries and take preventive actions
+
+## ⚠️ Limitations
+
+- The dataset may not fully capture real-time operational variability  
+- External factors, such as weather conditions, were not included  
+- Model performance may vary with real-world data complexity
+
+  ## 🚀 Future Improvements
+
+- Incorporate real-time data such as weather and live traffic conditions  
+- Deploy the model into a real-time prediction system  
+- Explore advanced machine learning techniques for improved predictive performance  
