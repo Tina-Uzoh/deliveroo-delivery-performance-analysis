@@ -78,8 +78,8 @@ Plan for higher rider availability during peak periods
 Use predictive insights to flag deliveries that are likely to be late
 Continuously monitor performance data to identify new patterns over time
 
-⚠️ Limitations
-The dataset does not include some real-world factors such as weather conditions
+## ⚠️ Limitations
+The dataset does not include some real-world factors, such as weather conditions
 The data may not fully reflect real-time operational changes
 Model results may vary when applied to larger or more complex datasets
 
