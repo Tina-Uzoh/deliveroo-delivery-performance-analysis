@@ -64,29 +64,27 @@ Traffic congestion significantly impacts delivery delays, making route optimisat
 
 ## 🔍 Conclusion & Key Findings
 
-This project demonstrates that delivery performance is significantly influenced by distance, traffic conditions, and operational factors.
+The analysis made it clear that delivery performance is strongly affected by factors such as distance and traffic conditions. Orders that travelled longer distances or were delivered during heavy traffic were more likely to be delayed.
 
-Key findings indicate that increased delivery distance and high traffic levels lead to longer delivery times, while operational inefficiencies further contribute to delays.
+There were also signs that operational factors, such as how deliveries are assigned, may contribute to inconsistencies in delivery time.
 
-Machine learning models, particularly Random Forest and XGBoost, achieved strong predictive performance, highlighting their ability to capture complex delivery patterns.
+Among the models tested, Random Forest and XGBoost outperformed Logistic Regression, suggesting that more complex models are better at capturing patterns in the data.
 
-These insights provide a foundation for improving route optimisation, reducing delays, and enhancing overall customer experience through data-driven decision-making.
+Overall, the results show that delivery performance can be improved by focusing on key operational and environmental factors.
 
 ## 💡 Business Recommendations
+Adjust delivery routes based on distance and traffic conditions to reduce delays
+Plan for higher rider availability during peak periods
+Use predictive insights to flag deliveries that are likely to be late
+Continuously monitor performance data to identify new patterns over time
 
-- Optimise delivery routes using distance and traffic insights to reduce delivery time  
-- Implement dynamic routing during peak traffic periods to minimise delays  
-- Allocate more riders during high-demand periods to improve operational efficiency  
-- Use predictive models to proactively identify high-risk deliveries and take preventive actions
+⚠️ Limitations
+The dataset does not include some real-world factors such as weather conditions
+The data may not fully reflect real-time operational changes
+Model results may vary when applied to larger or more complex datasets
 
-## ⚠️ Limitations
-
-- The dataset may not fully capture real-time operational variability  
-- External factors, such as weather conditions, were not included  
-- Model performance may vary with real-world data complexity
-
-  ## 🚀 Future Improvements
-
-- Incorporate real-time data such as weather and live traffic conditions  
-- Deploy the model into a real-time prediction system  
-- Explore advanced machine learning techniques for improved predictive performance  
+## 🚀 Future Improvements
+Include additional variables such as weather and real-time traffic data
+Test the model on larger and more diverse datasets
+Explore more advanced modelling techniques to improve prediction accuracy
+Consider building a real-time system for monitoring delivery performance
