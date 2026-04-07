@@ -48,7 +48,7 @@ Average delivery time varies significantly, indicating inconsistencies in operat
 
 ### 📍 Delivery Distance vs Time  
 ![Delivery Distance and Time](./Delivery-Distance-and-Time.png)  
-Delivery time increases with distance, but variability suggests other factors such as traffic and delivery conditions also play a role.
+Delivery time increases with distance, but variability suggests other factors, such as traffic and delivery conditions, also play a role.
 
 ---
 
@@ -60,5 +60,14 @@ Different delivery methods show varying performance levels, highlighting opportu
 
 ### 🚦 Traffic Condition  
 ![Traffic Condition](./Traffic-condition.png)  
-Traffic congestion has a strong impact on delivery delays, making route optimisation critical for performance improvement.
+Traffic congestion significantly impacts delivery delays, making route optimisation critical for performance improvement.
 
+## 🔍 Conclusion & Key Findings
+
+This project demonstrates that delivery performance is significantly influenced by distance, traffic conditions, and operational factors.
+
+Key findings indicate that increased delivery distance and high traffic levels lead to longer delivery times, while operational inefficiencies further contribute to delays.
+
+Machine learning models, particularly Random Forest and XGBoost, achieved strong predictive performance, highlighting their ability to capture complex delivery patterns.
+
+These insights provide a foundation for improving route optimisation, reducing delays, and enhancing overall customer experience through data-driven decision-making.
