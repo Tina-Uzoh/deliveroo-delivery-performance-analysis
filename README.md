@@ -39,4 +39,16 @@ This project demonstrates how predictive analytics can improve delivery efficien
 
 📊 Project Output
 
-(Add your charts/dashboard screenshots here)
+## 📊 Visual Insights  
+
+### 🚚 Average Delivery Time  
+![Average Delivery Time](./Average-Delivery-Time.png)
+
+### 📍 Delivery Distance vs Time  
+![Delivery Distance and Time](./Delivery-Distance-and-Time.png)
+
+### 🛵 Delivery Method  
+![Delivery Method](./Delivery-method.png)
+
+### 🚦 Traffic Condition  
+![Traffic Condition](./Traffic-condition.png)
