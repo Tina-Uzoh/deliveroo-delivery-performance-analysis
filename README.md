@@ -1,42 +1,61 @@
-🚴 Delivery Performance Analysis 
+## 🚴 Delivery Performance Analysis
 
-A data-driven analysis of delivery performance to identify key factors influencing late deliveries and improve operational efficiency.
+This project explores delivery performance to understand what drives delays and how operations can be improved using data.
 
-🎯 Business Problem
+---
 
-Late deliveries negatively impact customer satisfaction and operational performance. This project explores the delivery data to understand the root causes of delays and identify opportunities for improvement.
+## 🎯 Business Problem
 
-🚀 Solution
+Late deliveries can negatively affect customer satisfaction and overall operational performance.  
+The goal of this project is to analyse delivery data to identify the main causes of delays and highlight areas for improvement.
 
-Developed a data-driven approach using analytics and machine learning techniques to evaluate delivery performance and predict late deliveries
+---
 
-📊 Key Insights
+## 🛠️ Solution
 
-Identified key variables contributing to late deliveries
-Analysed delivery time patterns and operational inefficiencies
-Highlighted opportunities to improve delivery performance
+A data-driven approach was used to analyse delivery patterns and build predictive models capable of identifying deliveries that are likely to be delayed.
 
-🛠️ Tools & Technologies
-Python (Data Analysis & Modelling)
-Excel (Data Cleaning & Preparation)
-Power BI (Visualisation)
-Machine Learning (Logistic Regression, Random Forest, XGBoost)
+---
 
-⚙️ Methodology
-Data Collection
-Data Cleaning & Preparation
-Exploratory Data Analysis (EDA)
-Model Development
-Model Evaluation (F1-score, ROC-AUC)
+## 📊 Key Insights
 
-## Model Performance  
+- Delivery distance and traffic conditions were key contributors to delays  
+- Longer delivery times were often linked to high traffic levels and operational inefficiencies  
+- Certain patterns in delivery behaviour highlighted opportunities for process improvement  
+
+---
+
+## 🛠️ Tools & Technologies
+
+- Python (data analysis and modelling)  
+- Excel (data cleaning and preparation)  
+- Power BI (data visualisation)  
+- Machine Learning (Logistic Regression, Random Forest, XGBoost)  
+
+---
+
+## ⚙️ Methodology
+
+- Data collection from delivery-related datasets  
+- Data cleaning and preparation using Excel and Python  
+- Exploratory data analysis (EDA) to identify trends and patterns  
+- Model development using classification algorithms  
+- Model evaluation using F1-score and ROC-AUC  
+
+---
+
+## 📈 Model Performance
+
 - Logistic Regression: XX% accuracy  
 - Random Forest: XX% accuracy  
-- XGBoost: XX% accuracy 
-💼 Business Impact
+- XGBoost: XX% accuracy  
 
-This project demonstrates how predictive analytics can improve delivery efficiency, reduce delays, and enhance customer satisfaction.
+---
 
+## 💼 Business Impact
+
+The insights from this analysis can help improve delivery efficiency by identifying key delay factors.  
+These findings can support better route planning, resource allocation, and overall service improvement.
 
 ## 📊 Visual Insights  
 
