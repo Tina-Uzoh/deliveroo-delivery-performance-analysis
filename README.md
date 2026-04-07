@@ -73,18 +73,18 @@ Among the models tested, Random Forest and XGBoost outperformed Logistic Regress
 Overall, the results show that delivery performance can be improved by focusing on key operational and environmental factors.
 
 ## 💡 Business Recommendations
-Adjust delivery routes based on distance and traffic conditions to reduce delays
-Plan for higher rider availability during peak periods
-Use predictive insights to flag deliveries that are likely to be late
-Continuously monitor performance data to identify new patterns over time
+- Adjust delivery routes based on distance and traffic conditions to reduce delays
+- Plan for higher rider availability during peak periods
+- Use predictive insights to flag deliveries that are likely to be late
+- Continuously monitor performance data to identify new patterns over time
 
 ## ⚠️ Limitations
-The dataset does not include some real-world factors, such as weather conditions
-The data may not fully reflect real-time operational changes
-Model results may vary when applied to larger or more complex datasets
+- The dataset does not include some real-world factors, such as weather conditions
+- The data may not fully reflect real-time operational changes
+- Model results may vary when applied to larger or more complex datasets
 
 ## 🚀 Future Improvements
-Include additional variables such as weather and real-time traffic data
-Test the model on larger and more diverse datasets
-Explore more advanced modelling techniques to improve prediction accuracy
-Consider building a real-time system for monitoring delivery performance
+- Include additional variables such as weather and real-time traffic data
+- Test the model on larger and more diverse datasets
+- Explore more advanced modelling techniques to improve prediction accuracy
+- Consider building a real-time system for monitoring delivery performance
