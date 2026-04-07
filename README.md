@@ -42,13 +42,24 @@ This project demonstrates how predictive analytics can improve delivery efficien
 ## 📊 Visual Insights  
 
 ### 🚚 Average Delivery Time  
-![Average Delivery Time](./Average-Delivery-Time.png)
+![Average Delivery Time](./Average-Delivery-Time.png)  
+Average delivery time varies significantly, indicating inconsistencies in operational efficiency across orders.
+
+---
 
 ### 📍 Delivery Distance vs Time  
-![Delivery Distance and Time](./Delivery-Distance-and-Time.png)
+![Delivery Distance and Time](./Delivery-Distance-and-Time.png)  
+Delivery time increases with distance, but variability suggests other factors such as traffic and delivery conditions also play a role.
+
+---
 
 ### 🛵 Delivery Method  
-![Delivery Method](./Delivery-method.png)
+![Delivery Method](./Delivery-method.png)  
+Different delivery methods show varying performance levels, highlighting opportunities to optimise logistics strategy.
+
+---
 
 ### 🚦 Traffic Condition  
-![Traffic Condition](./Traffic-condition.png)
+![Traffic Condition](./Traffic-condition.png)  
+Traffic congestion has a strong impact on delivery delays, making route optimisation critical for performance improvement.
+
