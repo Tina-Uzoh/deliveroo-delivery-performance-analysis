@@ -61,49 +61,59 @@ These findings can support better route planning, resource allocation, and overa
 
 ### 🚚 Average Delivery Time  
 ![Average Delivery Time](./Average-Delivery-Time.png)  
-Average delivery time varies significantly, indicating inconsistencies in operational efficiency across orders.
 
+The average delivery time is around 37 minutes, suggesting moderate efficiency but room for improvement.
 ---
 
 ### 📍 Delivery Distance vs Time  
 ![Delivery Distance and Time](./Delivery-Distance-and-Time.png)  
-Delivery time increases with distance, but variability suggests other factors, such as traffic and delivery conditions, also play a role.
 
+There is a clear relationship between delivery distance and time, with longer distances generally resulting in longer delivery times.
 ---
 
 ### 🛵 Delivery Method  
 ![Delivery Method](./Delivery-method.png)  
-Different delivery methods show varying performance levels, highlighting opportunities to optimise logistics strategy.
 
+Different delivery methods show noticeable differences in performance. Some methods consistently achieve faster delivery times, while others are more prone to delays. This suggests that how deliveries are assigned can directly impact efficiency and overall service quality.
 ---
 
 ### 🚦 Traffic Condition  
 ![Traffic Condition](./Traffic-condition.png)  
-Traffic congestion significantly impacts delivery delays, making route optimisation critical for performance improvement.
+
+Deliveries made under high-traffic conditions tend to take significantly longer than in low-traffic scenarios.
+---
 
 ## 🔍 Conclusion & Key Findings
 
-The analysis made it clear that delivery performance is strongly affected by factors such as distance and traffic conditions. Orders that travelled longer distances or were delivered during heavy traffic were more likely to be delayed.
+The analysis shows that delivery performance is largely influenced by distance, traffic conditions, and operational factors.  
+Deliveries over longer distances or during high-traffic periods were more likely to be delayed.
 
-There were also signs that operational factors, such as how deliveries are assigned, may contribute to inconsistencies in delivery time.
+The machine learning models, particularly Random Forest and XGBoost, outperformed Logistic Regression, indicating their ability to capture more complex patterns in the data.
 
-Among the models tested, Random Forest and XGBoost outperformed Logistic Regression, suggesting that more complex models are better at capturing patterns in the data.
+Overall, the project highlights how data can be used to better understand delivery challenges and support more informed decision-making.
 
-Overall, the results show that delivery performance can be improved by focusing on key operational and environmental factors.
+---
 
 ## 💡 Business Recommendations
-- Adjust delivery routes based on distance and traffic conditions to reduce delays
-- Plan for higher rider availability during peak periods
-- Use predictive insights to flag deliveries that are likely to be late
-- Continuously monitor performance data to identify new patterns over time
+
+- Optimise delivery routes based on distance and traffic patterns  
+- Increase rider availability during peak demand periods  
+- Use predictive models to identify deliveries at risk of delay  
+- Continuously monitor delivery performance to identify new trends
+   
+---
 
 ## ⚠️ Limitations
-- The dataset does not include some real-world factors, such as weather conditions
-- The data may not fully reflect real-time operational changes
-- Model results may vary when applied to larger or more complex datasets
+
+- The dataset does not include external factors such as weather conditions  
+- The data may not fully reflect real-time operational changes  
+- Model performance may vary when applied to different datasets
+  
+---
 
 ## 🚀 Future Improvements
-- Include additional variables such as weather and real-time traffic data
-- Test the model on larger and more diverse datasets
-- Explore more advanced modelling techniques to improve prediction accuracy
-- Consider building a real-time system for monitoring delivery performance
+
+- Include additional variables such as weather and real-time traffic data  
+- Test the models on larger and more diverse datasets  
+- Explore more advanced modelling techniques  
+- Develop a real-time monitoring system for delivery performance  
